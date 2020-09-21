@@ -1,0 +1,263 @@
+body {
+
+    font-family: "Palatino Linotype", Arial, sans-serif;
+}
+
+.customheader {
+    min-height: 90vh;
+    overflow: hidden;
+    position: relative;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.background-elephant {
+    background-image: url('img/elephant-279505_1920.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.background-adler {
+    background-image: url('img/adler.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.background-grasshopper {
+    background-image: url('img/grasshopper.jpg');
+    background-attachment: fixed;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+nav {
+
+    width: 100%;
+    /* position: fixed; */
+    background-color: brown;
+    font-size: 140%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+}
+
+nav a {
+    color: coral;
+    padding: 15px;
+    text-decoration: none;
+    margin: 25px;
+}
+.imageBefore {
+    padding-right: 5px;
+}
+
+h1 {
+    color: aliceblue;
+    border-bottom: 1px solid rgb(156, 83, 83);
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+h2 {
+    padding-top: 5vh;
+    text-align: left;
+    padding-left: 10vh;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 20;
+    font-weight: bold;
+}
+
+em {
+    color: yellowgreen;
+    background-color: grey;
+}
+
+/*main {
+    max-width: 62rem;
+    margin:auto;
+    display: flex;
+}*/
+
+.abstand {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+.mehrspaltig {
+    -webkit-column-count: 2;
+    column-count:         2;
+  }
+
+.svgPosition {
+    margin-left: 80px;
+}
+
+.centerPos {
+    width: 50%;
+    display: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.textRight {
+    text-align: right;
+    font-size: xx-large;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    background-color: coral;
+}
+
+.row {
+    display: flex;
+    padding-inline: 80px;
+}
+
+footer {
+    background-color: #263238;
+    color: #ffffff;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+
+@media screen and (max-width:720px) {
+    min {
+        display: block;
+    }
+
+    article {
+        display: block;
+        width: 100%;
+    }
+}
+
+p {
+    color: hotpink;
+}
+
+.background-dark {
+    background-color: green;
+}
+
+.custom-styling {
+    background-color: blue;
+}
+
+p.noch {
+    background-color: peru;
+}
+
+#unique {
+    background-color: green;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    color: ivory;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background: lightgreen;
+
+}
+
+/* p[id] {
+    color: red;
+} */
+/*alle Elemente mit dem Attribut, dessen Atrtibute mit dem Wert anfangen*/
+/* a[href^="https"] {
+    color: palegoldenrod;
+} */
+
+/*alle Elemente mit dem Attribut,dessen Atrtibute mit dem Wert  enden*/
+/* a[href$="pdf"] {
+    color: blueviolet;
+} */
+
+/*alle Elemente mit dem Attribut,dessen Atrtibute mit dem Wert beinhalten*/
+/* a[href*="yahoo"] {
+    color: black;
+} */
+
+/*alle Elemente mit dem Attribut,dessen Atrtibute mit das Wort vorkommt*/
+/* a[href~="Extern"] {
+    color: beige;
+}
+
+
+a[title|="Abb."] {
+    font-weight: bold;
+} */
+
+/*man kann mehrere Elemente hineingeben*/
+/* input[type="text"], 
+.custom-styling,
+input [type="radio"] {    
+    background: transparent;
+}
+
+a:hover {
+    font-size: 10rem;
+} */
+/* 
+a:link {
+
+}
+
+a:visited{
+  font-size:10 rem; 
+}
+
+a:focus {
+
+}
+
+a:active{
+Links die gerade geklickt werden
+font-size: 50rem; 
+}
+ */
+
+/* input {
+     width: 100%;
+     border: 1px solid black;
+ }
+ input:focus-within {
+     border: 3px solid red;
+ } */
+
+/* tr:nth-child(2n) {
+     background-color: tomato;
+ } */
+/*font-family: 'Sacramento', cursive;*/
+
+/* .first::first-line,
+h2::first-letter {
+font-family:'Sacrameto', cursive;
+} */
